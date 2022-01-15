@@ -1,0 +1,26 @@
+Local list:Stack<Vec2f> = New Stack<Vec2f>()
+Local worldScale:Float=1
+list.Add(New Vec2f(-107.0/worldScale,-95.0/worldScale))
+list.Add(New Vec2f(-52.0/worldScale,-172.0/worldScale))
+list.Add(New Vec2f(-8.0/worldScale,-262.0/worldScale))
+list.Add(New Vec2f(36.0/worldScale,-273.0/worldScale))
+list.Add(New Vec2f(115.0/worldScale,-141.0/worldScale))
+list.Add(New Vec2f(101.0/worldScale,-8.0/worldScale))
+list.Add(New Vec2f(128.0/worldScale,104.0/worldScale))
+list.Add(New Vec2f(32.0/worldScale,189.0/worldScale))
+list.Add(New Vec2f(-97.0/worldScale,181.0/worldScale))
+list.Add(New Vec2f(-198.0/worldScale,110.0/worldScale))
+list.Add(New Vec2f(-252.0/worldScale,22.0/worldScale))
+Local listSize:Int=11
+points[0] = (Vector2){-107.0/worldScale,-95.0/worldScale};
+points[1] = (Vector2){-52.0/worldScale,-172.0/worldScale};
+points[2] = (Vector2){-8.0/worldScale,-262.0/worldScale};
+points[3] = (Vector2){36.0/worldScale,-273.0/worldScale};
+points[4] = (Vector2){115.0/worldScale,-141.0/worldScale};
+points[5] = (Vector2){101.0/worldScale,-8.0/worldScale};
+points[6] = (Vector2){128.0/worldScale,104.0/worldScale};
+points[7] = (Vector2){32.0/worldScale,189.0/worldScale};
+points[8] = (Vector2){-97.0/worldScale,181.0/worldScale};
+points[9] = (Vector2){-198.0/worldScale,110.0/worldScale};
+points[10] = (Vector2){-252.0/worldScale,22.0/worldScale};
+vextex_index=11;
